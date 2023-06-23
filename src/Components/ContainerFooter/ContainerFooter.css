@@ -1,0 +1,24 @@
+.ContainerFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  margin: 0px 30px;
+}
+.ContainerFooter label {
+  color: #fff;
+}
+.ContainerFooter label input {
+  accent-color: #57567f;
+}
+.ContainerFooter label:hover {
+  color: black;
+}
+.ContainerFooter a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+}
+.ContainerFooter a:hover {
+  color: black;
+}/*# sourceMappingURL=ContainerFooter.css.map */

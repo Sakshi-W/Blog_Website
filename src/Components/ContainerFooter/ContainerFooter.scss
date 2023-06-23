@@ -1,0 +1,26 @@
+.ContainerFooter{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:85%;
+    margin:0px 30px;
+    label{
+        color:#fff;
+        input{
+            accent-color:#57567f; 
+
+        }
+        &:hover{
+            color:black;
+        }
+    }
+    a{
+        text-decoration:  none;
+        cursor: pointer;
+        color:#fff;
+        &:hover{
+            color:black;
+
+        }
+    }
+}

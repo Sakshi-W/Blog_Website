@@ -1,0 +1,58 @@
+.ContainerBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.input-container {
+  position: relative;
+  height: 50px;
+  width: 60%;
+  margin: 30px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-container input {
+  flex: 1;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: medium;
+  border-bottom: 2px solid black;
+}
+
+.input-container label {
+  position: absolute;
+  bottom: 5px;
+  pointer-events: none;
+}
+
+.icons-s {
+  color: #fff;
+  font-size: 1.3rem;
+}
+.icons-s:hover {
+  color: gray;
+}
+
+#log_but {
+  width: 60%;
+  margin: 20px 0px 15px;
+  font-size: large;
+  border-radius: 3px;
+  border: 1px solid black;
+  background-color: #d0cfe1;
+  color: #fff;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+#log_but:hover {
+  background-color: #fff;
+  color: #9a98ae;
+  font-weight: bold;
+}/*# sourceMappingURL=ContainerBody.css.map */

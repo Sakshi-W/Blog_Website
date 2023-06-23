@@ -1,0 +1,14 @@
+.ContainerHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ContainerHeader .heading {
+  font-weight: bold;
+  font-size: 1.7rem;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.ContainerHeader .headinghover {
+  color: #ceced7;
+}/*# sourceMappingURL=ContainerHeader.css.map */
